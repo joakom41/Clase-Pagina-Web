@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+
+*{
+margin: 0;
+padding-inline: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(172, 160, 160);
+    font-family: "Ballet", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header{
+    text-align: center;
+    color:black;
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url(imagenes/black-white-dual-tone-spiral-background_512172-144.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
