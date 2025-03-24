@@ -29,3 +29,18 @@ header{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+header figure img{
+     border-radius: 50%;
+     border: 5px solid rgb(77, 77, 77);
+     box-shadow: 0 px 0px 10px;
+}
+
+header h1{
+    font: size 2em;
+    margin-top: 10px;
+}
+header h2{
+    font-size: 1.2em;
+    opacity: 0.7;
+}
