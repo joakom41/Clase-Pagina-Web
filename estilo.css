@@ -1,51 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wdth,wght@75..100,400..900&display=swap');
 *{
 margin: 0;
-padding-inline: 0;
+padding: 0;
 box-sizing: border-box;
 }
 
 body{
-    background-color: rgb(172, 160, 160);
-    font-family: "Ballet", cursive;
+    font-family: "Tektur", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 400;
 }
 main{
-    max-width: 800px;
+    max-width: 800PX;
     margin: auto;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(134, 134, 134, 0.986);
 }
-header{
+header
+{
     text-align: center;
-    color:black;
+    color: rgb(0, 0, 0);
     padding: 20px 0;
     border-radius: 8px 8px 0 0;
-    background-image: url('imagenes/black-white-dual-tone-spiral-background_512172-144.jpg');
-    background-size: 100%;
+    background-image: url(./imagenes/black-white-dual-tone-spiral-background_512172-144.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-header figure img{
-     border-radius: 50%;
-     border: 5px solid rgb(77, 77, 77);
-     box-shadow: 0 px 0px 10px;
+header figure img
+{
+    border-radius: 50%;
+    border: 5px solid rgb(138, 138, 138);
+    box-shadow:  0px 0px 10px;
+        
 }
-
 header h1{
     font: size 2em;
     margin-top: 10px;
 }
 header h2{
     font-size: 1.2em;
-    opacity: 0.9;
+    opacity: 0.7;
 }
 .container{
-    background-color: rgb(194, 193, 192);
+    background-color: rgb(61, 61, 61);
     width: 80%;
     margin: 0 auto;
     position: relative;
@@ -59,12 +60,55 @@ header h2{
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
-    border: 7px solid whitesmoke;
+    border: 7px solid rgb(165, 165, 165);
     margin:5%;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px rgba(202, 202, 202, 0.5);
 }
 .contenedor_foto_perfil img{
     width: 100%;
     height: auto;
     display: block;
+}
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color:rgb(0, 0, 0)
+}
+section{
+    background-color: rgba(231, 231, 231, 0.761);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+section hr{
+    border:0;
+    height: 2px;
+    background:#000000;
+    margin: 10px 0;
+}
+
+section hr{
+    margin: 10px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    padding: 5px 0;
+}
+i{
+    color:#000000;
+    margin-right: 8px;
+}
+address p {
+    margin:5px;
+}
+address a{
+    color:rgb(185, 185, 185);
+    text-decoration: none;
+}
+article{
+    margin-bottom: 15px;
 }
